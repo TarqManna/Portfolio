@@ -1,0 +1,332 @@
+/*About Page*/
+.at1 {
+    padding: 100px;
+    text-align: center;
+    background-image: url("../images/whoami.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+.SelfP {
+    border-radius: 300px;
+  }
+
+.at2 {
+    padding: 0px;
+    text-align: center;
+    background-color: aquamarine;
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*opacity: 0.85;*/
+    color: #000000;
+    font-family: 'Prata', serif;
+    font-size: 16px;
+}
+
+.at3 {
+    padding: 150px;
+    text-align: center;
+    background-image: url("../images/contact-us.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+/*End of About page*/
+/*Start of Projects Page*/
+
+.container-fluid {
+    padding-left: 200px;
+}
+
+.pj1 {
+    padding: 225px;
+    text-align: center;
+    background-image: url("../images/html-css-js-logos.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+.pj2 {
+    padding: 1px;
+    text-align: center;
+    background-color: black;
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #f7f1f1;
+    font-family: 'Prata', serif;
+    font-size: 15px;
+}
+
+.pj3 {
+    padding: 225px;
+    text-align: center;
+    background-image: url("../images/mainfullpg.png");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+
+/*End of Projects Page*/
+
+/*Start of Contact Page*/
+
+.con1 {
+    padding: 125px;
+    text-align: center;
+    background-image: url("../images/contact2.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+.con2 {
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(6, 250, 189);
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #e64411;
+    font-family: 'Prata', serif;
+    font-size: 40px;
+    padding-left: 200px;
+}
+
+#vol-form {
+    background-color: dodgerblue;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    box-sizing: inherit;
+    display: block;
+}
+
+.con3 {
+    padding: 225px;
+    text-align: center;
+    background-image: url("../images/Tick-Tock.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+
+/*End of Contact page*/
+
+
+/*Start of Javascript Page*/
+
+.js1 {
+    padding: 225px;
+    text-align: center;
+    background-image: url("../images/jascyw.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+.js2 {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(107, 208, 226);
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #f7f1f1;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+.js3 {
+    padding: 225px;
+    text-align: center;
+    background-image: url("../images/abstract-word-js.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+
+/*End of Javascript Page*/
+
+/*Start of CSS Page*/
+
+.css1 {
+    padding: 175px;
+    text-align: center;
+    background-image: url("../images/CSSdetail.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+}
+
+.css2 {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(82, 157, 255);
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #f7f1f1;
+    font-family: 'Prata', serif;
+    font-size: 15px;
+}
+
+.css3 {
+    padding: 175px;
+    text-align: center;
+    background-image: url("../images/CSSdetail.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+    font-size: 15px;
+}
+
+
+/*End of CSS Page*/
+
+/*Start of Html Page*/
+
+.html1 {
+    padding: 195px;
+    text-align: center;
+    background-image: url("../images/learn-html5.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+.html2 {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(252, 123, 36);
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #f7f1f1;
+    font-family: 'Prata', serif;
+    font-size: 12px;
+}
+
+.html3 {
+    padding: 195px;
+    text-align: center;
+    background-image: url("../images/htmL2.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    color: #ff0404;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+
+/*End of Html Page*/
+
+/*Start of Contact Page*/
+
+/*End of Projects Page*/
+
+/*start of Nav Page*/
+
+
+/*End of Nav Page*/
+
+/*Start of Social Media Icons*/
+
+.smed {
+    margin-right: 100px;
+}
+
+.fa-github-square {
+    color: orangered;
+}
+
+.fa-linkedin-square {
+    color: orangered;
+}
+
+
+/*End of Social Media Icons*/

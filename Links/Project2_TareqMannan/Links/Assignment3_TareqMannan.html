@@ -1,0 +1,69 @@
+<!--Tareq Mannan-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cash Register Scenario</title>
+    <center>
+      <h1 id="tian"><a href="https://cooltext.com"><img src="https://images.cooltext.com/5114109.png" width="1259" height="79" alt="Welcome to Trey's Bazaar! The Electifying Market of our robotic dreams!" /></a></h1>
+    </center>
+    <style>
+      #tian {
+        background-color: #E0E0E0;
+		color:darkblue
+      }
+      body {
+        color: #C6FF00;
+        font-size: 50px;
+        font-family: 'Monoton', cursive;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  </head>
+  <!-- This is a comment. You can make notes to yourself using comments. Browsers ignore them -->
+  <body background="https://img00.deviantart.net/c2ac/a/large/wallpaper/wmovie/matrix_red.jpg">
+    <center>
+
+      <button onclick="myFunction()"><a><img src="https://blogs-images.forbes.com/lauraheller/files/2012/05/VRC_Tunnel_Takeover_1.jpg" alt="Hallway between two walls with pictures of products on walls for AR future" width="500" height="377"></a></button>
+
+    <p id="demo">Use the latest ar to browse our aisles and don't forget to recharge your robot avatars! Press the picture to start!</p>
+    <p id="demo2">Press Pic</p>
+    <a href="javascript:location.reload(true)">Refresh this page</a>
+    <script type="text/javascript">
+		
+	// Allows the function to ask your name upon clicking the Picture 	
+    function myFunction() {
+      var person = prompt("Please enter your name", "");
+		
+	//Array for the items in the bracket	
+    var items = ["Apples", "Magazines", "Pedialyte", "Chocolate", "Tylenol"];
+    var numItems = new Array();
+    for (i=0; i<items.length; i++) {
+        numItems.push(prompt("How Many " +items[i] +" do you want?"));
+        console.log(numItems);
+    }
+		//Above ^ for loop is for quantity and the push adds more into the array? 
+		//Below is the array for prices from positions 01234
+    var $items= [3, 4, 3.5, 1, 0.75];
+		
+		//Below is the array for finding the subtotal the push adds to the array and the parseInt turns the prices in the array from string into integer
+		
+    var itemTotal=new Array();
+    for (i=0; i<items.length; i++) {
+        itemTotal.push ($items[i]*parseInt(numItems[i]));
+        console.log(itemTotal);
+    }
+		//calculates the total
+    var total = 0;
+    for (j=0; j<itemTotal.length; j++) {
+        total += itemTotal[j];
+        console.log(total);
+    }
+    document.getElementById("demo2").innerHTML= (""+person+" you will be charged on your account  $"+total+". Thank you. We hope to see you again.");
+	}
+    </script>
+	
+  </center>
+
+  </body>
+</html>

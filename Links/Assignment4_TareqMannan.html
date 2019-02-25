@@ -1,0 +1,109 @@
+<!--Tareq Mannan-->
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Credit Card Validation</title>
+  <style type="text/css">
+
+  body {
+    background-image: url("http://images.huffingtonpost.com/2015-12-07-1449495292-1899515-creditcards.gif");
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    padding: 50px;
+		color: rgb(237, 254, 155);
+		text-align: center;
+		font-weight: bold;
+  }
+  .content {
+		background-color: white;
+		padding: 3px;
+		margin: 10px auto 10px auto;
+		width: 50%;
+    opacity: 0.5;
+    filter: alpha(opacity=60)
+	}
+  div.transp {
+    margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  }
+
+  </style>
+</head>
+<body>
+
+  <h1>Enter Your Billing Information<h1>
+  <div class="content">
+    <div class="transp">
+    <p>Please input your information to purchase</p>
+    <form>
+      <label for="fname"><i class="fa fa-user"></i> Card Owner:</label><br>
+      <input type="text" id="fname" name="firstname" placeholder="John M. Doe" required><br>
+      <label for="email">Email Address:</label><br>
+      <input id="email" name="email" type="email" placeholder="xxxx@yyyy.zzz" required><br>
+      <label for="phone">Phone Number:</label><br>
+      <input id="phone" name="phone" type="tel" placeholder="1231231234" required><br>
+      <label for="card-type">Card Type:</label><br>
+      <select id="card-type" name="card-type" required>
+        <option value="blank"></option>
+        <option value="Visa">Visa</option>
+        <option value="Master Card">Master Card</option>
+        <option value="American Express">American Express</option>
+        <option value="Dicover">Discover Card</option>
+      </select><br>
+      <span>Credit Card Number:</span><br>
+      <span><input type="number" id="ccn" name="cardoNum" placeholder="Credit Card# No Dashes" required></span><br>
+      <label for="Expiration-year" class="Exp_Year-label">Expiration Date:</label><br>
+      <select id="Expiration-Month" name="Expiration-Month" required>
+        <option value="blank"></option>
+        <option value="January">01</option>
+        <option value="February">02</option>
+        <option value="March">03</option>
+        <option value="April">04</option>
+        <option value="May">05</option>
+        <option value="June">06</option>
+        <option value="July">07</option>
+        <option value="August">08</option>
+        <option value="September">09</option>
+        <option value="October">10</option>
+        <option value="November">11</option>
+        <option value="December">12</option>
+      </select>
+      <select id="Expiration-year" name="Expiration-year" required>
+        <option value="blank"></option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+      </select><br>
+      <button type="button" onclick="validFormCCN()">Submit</button>
+    </form><br>
+      <p id="CCNSpan"></p>
+    </div>
+  </div>
+  <script>
+    function validFormCCN() {
+      var x, text;
+      x = document.getElementById('ccn').value;
+      //If statement below is blank in the last () paranthesis. It needs to be filled with 'different numbers' to work
+      if (isNaN(x) || x<=1111111111111111 || x==" " || (x%2)!==0 || x.length !== 16 || (x%2222222222222222==0)) {
+        text = "Your Card Number seems incorrect";
+        console.log("False");
+      }
+      else {
+        text = "Your Credit Card is working! Unfortunately the site is undergoing maintenance. Please come back as soon as we finish updating.";
+        console.log("True");
+      }
+      document.getElementById("CCNSpan").innerHTML = text;
+    }
+  </script>
+</body>
+</html>

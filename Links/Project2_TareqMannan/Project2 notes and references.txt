@@ -1,0 +1,40 @@
+<nav id="navsi">
+                            <ul>
+                                <li><a href="#top" class="active" data-nav="home">Home</a></li>
+                                <li><a href="#projects" data-nav="projects">Projects</a></li>
+                                <li><a href="#about" data-nav="about me">About Me</a></li>
+                                <li><a href="#contact" data-nav="contact">Contact</a></li>
+                            </ul>
+                        </nav>
+
+
+..\Project2_TareqMannan\images\Assignment1.jpg
+
+..\Project2_TareqMannan\Links\Assignment1_Tareq_Mannan.html
+
+\Project2_TareqMannan\Links\ET712MidTerm Project1Bareb_TareqMannan\Et712MidTermProj_BbonesTareqMannan.html
+
+\Project2_TareqMannan\Links\Imagemap\Image_Map_of_NYC.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
